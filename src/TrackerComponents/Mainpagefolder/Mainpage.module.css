@@ -21,6 +21,7 @@
 	outline: none;
 	color: #fff;
 	cursor: pointer;
+	margin-left: -18px;
 }
 .backBtn svg {
 	transform: rotate(180deg);
@@ -40,6 +41,7 @@
 }
 .userprofile {
 	color: white;
+	margin-top: 27px;
 }
 .text,
 .usage {
