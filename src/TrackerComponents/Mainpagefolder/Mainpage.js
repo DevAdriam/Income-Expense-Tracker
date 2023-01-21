@@ -28,26 +28,9 @@ function Mainpage() {
 				<Balance />
 				<Incexp />
 				<Transitionlist />
-				<button
-					style={{
-						borderRadius: "50%",
-						background: "rgb(15, 148, 130)",
-						border: "none",
-						outline: "none",
-						color: "#fff",
-						fontSize: "35px",
-						width: "50px",
-						height: "50px",
-						margin: "auto",
-
-						position: "fixed",
-						bottom: "30px",
-						right: "30px",
-					}}
-					onClick={() => navigate("/addtransition")}
-				>
+				<div className={styles.addBtn} onClick={() => navigate("/addtransition")}>
 					+
-				</button>
+				</div>
 			</div>
 		</>
 	);

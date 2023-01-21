@@ -60,3 +60,25 @@
 	list-style-type: circle;
 	margin-top: -20px;
 }
+.addBtn {
+	width: 50px;
+	height: 50px;
+
+	border-radius: 50%;
+	background: rgb(15, 148, 130);
+
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+
+	display: flex;
+	justify-content: center;
+
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+
+	user-select: none;
+
+	cursor: pointer;
+}
