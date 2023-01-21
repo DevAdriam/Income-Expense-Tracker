@@ -10,7 +10,7 @@ function Transitionlist() {
 			<div className={styles.textwrapper}>
 				<h5 className={styles.history}>Recent History</h5>
 
-				<h5 style={{ visibility: "hidden" }}>View all</h5>
+				<h5 style={{ color: "red" }}>Swipe left to delete items</h5>
 			</div>
 
 			<div className={styles.transContainer}>

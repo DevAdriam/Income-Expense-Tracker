@@ -40,10 +40,6 @@
 .expenseBox .circle {
 	background: rgba(151, 13, 13, 0.514);
 }
-.expenseBox .circle svg {
-	fill: red;
-	transform: rotate(180deg);
-}
 
 .circle {
 	width: 20px;
@@ -55,7 +51,11 @@
 	right: 10px;
 	top: 10px;
 }
-.circle svg {
+.incomeBox .circle svg {
 	fill: rgb(1, 252, 1);
-	rotate: 180deg;
+	transform: rotate(180deg);
+}
+.expenseBox .circle svg {
+	fill: red;
+	transform: rotate(360deg);
 }
