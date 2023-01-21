@@ -13,14 +13,3 @@ ul {
 	padding: 10px;
 	list-style-type: none;
 }
-
-.dropdownmenu li button,
-.filter {
-	background: none;
-	color: #fff;
-	border: none;
-	outline: none;
-}
-.filter {
-	margin-top: 25px;
-}

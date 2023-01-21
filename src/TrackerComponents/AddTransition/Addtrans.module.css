@@ -32,7 +32,7 @@
 	cursor: pointer;
 }
 .exitBtn svg {
-	rotate: 180deg;
+	transform: rotate(180deg);
 	background: none;
 }
 .exitBtn svg g {
