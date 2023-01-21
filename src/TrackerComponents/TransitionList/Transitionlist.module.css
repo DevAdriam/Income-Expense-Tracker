@@ -1,0 +1,26 @@
+.container {
+	width: 100%;
+}
+.textwrapper {
+	display: flex;
+	justify-content: space-between;
+
+	color: #fff;
+	padding: 10px;
+}
+ul {
+	margin: 0;
+	padding: 10px;
+	list-style-type: none;
+}
+
+.dropdownmenu li button,
+.filter {
+	background: none;
+	color: #fff;
+	border: none;
+	outline: none;
+}
+.filter {
+	margin-top: 25px;
+}
