@@ -147,6 +147,7 @@ h4:nth-of-type(2) {
 	border-radius: 10px;
 	border: none;
 	font-size: 15px;
+	color: #000;
 
 	display: flex;
 	justify-content: center;

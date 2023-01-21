@@ -35,15 +35,14 @@ function Mainpage() {
 						border: "none",
 						outline: "none",
 						color: "#fff",
-						fontSize: "40px",
+						fontSize: "35px",
 						width: "50px",
 						height: "50px",
 						margin: "auto",
-						lineHeight: "30px",
 
 						position: "fixed",
-						bottom: "20px",
-						right: "20px",
+						bottom: "30px",
+						right: "30px",
 					}}
 					onClick={() => navigate("/addtransition")}
 				>
