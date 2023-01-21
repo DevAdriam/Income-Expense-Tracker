@@ -23,7 +23,7 @@
 	cursor: pointer;
 }
 .backBtn svg {
-	rotate: 180deg;
+	transform: rotate(180deg);
 }
 .backBtn svg g {
 	fill: white;
@@ -48,7 +48,7 @@
 	margin-left: 20px;
 }
 .text span {
-	color: red;
+	color: rgb(209, 26, 42);
 }
 .usage {
 	margin-top: 5rem;

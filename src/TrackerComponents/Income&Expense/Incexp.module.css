@@ -24,13 +24,13 @@
 .incometitle,
 .expensetitle {
 	margin-top: 30px;
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-bottom: 0px;
 }
 
 .incomeAmount,
 .expenseAmount {
-	margin: 10px 25px;
+	margin: 10px 10px;
 	font-size: 20px;
 	color: red;
 }
@@ -42,7 +42,7 @@
 }
 .expenseBox .circle svg {
 	fill: red;
-	rotate: 360deg;
+	transform: rotate(180deg);
 }
 
 .circle {
